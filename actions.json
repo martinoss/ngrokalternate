@@ -1,0 +1,21 @@
+{
+	"actions": [{
+		"description": "<description-here>",
+		"name": "MAIN",
+		"fulfillment": {
+			"conversationName": "MAIN_CONVERSATION"
+		},
+		"intent": {
+			"name": "actions.intent.MAIN",
+			"trigger": {
+				"queryPatterns": ["Ich möchte einen Glasschaden melden", "Meine scheiben am Auto sind kaputt gegangen", "Meine Autoscheibe ist kaputt"]
+			}
+		}
+	}],
+	"conversations": {
+		"MAIN_CONVERSATION": {
+			"name": "MAIN_CONVERSATION",
+			"url": "https://glassbot-acc.azurewebsites.net/api/messages"
+		}
+	}
+}
