@@ -16,7 +16,7 @@
 	"conversations": {
 		"MAIN_CONVERSATION": {
 			"name": "MAIN_CONVERSATION",
-			"url": "https://glassbot-acc.azurewebsites.net:3000"
+			"url": "https://google-actions-adapter.azurewebsites.net"
 		}
 	}
 }
