@@ -1,6 +1,7 @@
 {
+	"locale": "de",
 	"actions": [{
-		"description": "<description-here>",
+		"description": "Glassbot Assistant POC",
 		"name": "MAIN",
 		"fulfillment": {
 			"conversationName": "MAIN_CONVERSATION"
