@@ -16,7 +16,7 @@
 	"conversations": {
 		"MAIN_CONVERSATION": {
 			"name": "MAIN_CONVERSATION",
-			"url": "https://glassbot-acc.azurewebsites.net/api/messages"
+			"url": "https://glassbot-acc.azurewebsites.net"
 		}
 	}
 }
